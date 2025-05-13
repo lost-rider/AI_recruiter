@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { redirect } from 'next/navigation';
 import React, { useState } from 'react';
-import Dashboard from '../dashboard/page';
 
 export default function Login() {
   const [email, setEmail] = useState('');
