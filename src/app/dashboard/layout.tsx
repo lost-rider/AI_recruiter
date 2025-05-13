@@ -2,7 +2,7 @@
 "use client";
 import { redirect } from "next/navigation";
 import React, { useState } from "react";
-import profileImage from '../assets/profile-user.png';
+import profileImage from '../../../public/profile-user.png';
 import Image from 'next/image';
 import Lottie from "lottie-react";
 import wavingRobot from "../assets/waving-robot.json"; // place your JSON in assets

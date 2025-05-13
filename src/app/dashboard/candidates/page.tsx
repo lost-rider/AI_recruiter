@@ -1,8 +1,8 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import RightArrow from '../../assets/a1.png';
-import DownArrow from '../../assets/a2.png';
+import RightArrow from '../../../../public/a1.png';
+import DownArrow from '../../../../public/a2.png';
 
 const candidates = [
   {

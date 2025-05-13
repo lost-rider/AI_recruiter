@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import playButton from "../../assets/play.png";
+import playButton from "../../../../public/play.png";
 import Image from 'next/image';
 
 interface Message {
