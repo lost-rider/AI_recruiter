@@ -42,6 +42,9 @@ export default function DashboardLayout(
                     <a href="/dashboard/insights" className="block hover:text-gray-300">
                         Insights
                     </a>
+                    <a href="/dashboard/chatbot" className="block hover:text-gray-300">
+                        Chatbot
+                    </a>
                 </nav>
             </aside>
 
