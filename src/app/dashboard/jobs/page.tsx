@@ -1,4 +1,6 @@
 // app/dashboard/settings/page.tsx
+'use client';
+
 import React from 'react';
 
 const jobs = [

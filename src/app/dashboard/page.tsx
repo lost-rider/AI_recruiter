@@ -1,4 +1,6 @@
 // app/dashboard/page.tsx
+'use client';
+
 export default function Dashboard() {
     return (
       <div>
