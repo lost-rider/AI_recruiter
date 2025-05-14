@@ -74,9 +74,10 @@ export default function ChatPage() {
     setMessages((prev) => [...prev, userMessage]);
     setInput('');
 
+    let botResponse: string;
+
     // Bot response after user message
     setTimeout(() => {
-      let botResponse: string;
       let newContext = context;
 
       if (context === 'initial') {
