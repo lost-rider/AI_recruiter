@@ -20,10 +20,10 @@ const conversionData = [
 ];
 
 const roleData = [
-  { name: 'Software Engineer', value: 400 },
+  { name: 'Frontend Developer', value: 400 },
   { name: 'Product Manager', value: 300 },
   { name: 'Data Scientist', value: 300 },
-  { name: 'UI/UX Designer', value: 200 },
+  { name: 'Backend DEveloper', value: 200 },
 ];
 
 const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff7f50'];
@@ -60,25 +60,40 @@ export default function InsightsPage() {
 
         {/* Popular Roles */}
         <div className="bg-white rounded-xl shadow p-6 col-span-1 md:col-span-2">
-          <h2 className="text-xl font-semibold mb-4">Popular Roles</h2>
-          <PieChart width={400} height={250}>
-            <Pie
-              data={roleData}
-              dataKey="value"
-              nameKey="name"
-              cx="50%"
-              cy="50%"
-              outerRadius={100}
-              fill="#8884d8"
-              label
-            >
-              {roleData.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-              ))}
-            </Pie>
-            <Tooltip />
-          </PieChart>
-        </div>
+  <h2 className="text-xl font-semibold mb-4">Popular Roles</h2>
+
+  <PieChart width={400} height={250}>
+    <Pie
+      data={roleData}
+      dataKey="value"
+      nameKey="name"
+      cx="50%"
+      cy="50%"
+      outerRadius={100}
+      fill="#8884d8"
+      label
+    >
+      {roleData.map((entry, index) => (
+        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+      ))}
+    </Pie>
+    <Tooltip />
+  </PieChart>
+
+  {/* Legend */}
+  <div className="mt-4 flex flex-wrap gap-4">
+    {roleData.map((entry, index) => (
+      <div key={index} className="flex items-center space-x-2">
+        <div
+          className="w-4 h-4 rounded"
+          style={{ backgroundColor: COLORS[index % COLORS.length] }}
+        ></div>
+        <span className="text-sm">{entry.name}</span>
+      </div>
+    ))}
+  </div>
+</div>
+
       </div>
     </div>
   );

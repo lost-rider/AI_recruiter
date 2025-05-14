@@ -1,4 +1,10 @@
 @import "tailwindcss";
+.text-oklch {
+  color: oklch(0.56 0.15 168.81);
+}
+.bg-oklch {
+  color: oklch(0.56 0.15 168.81);
+}
 /* 
 :root {
   --background: #ffffff;

@@ -25,7 +25,7 @@ export default function Login() {
         className="w-1/2 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1733507267128-e65b38dad170?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+            "url('https://images.unsplash.com/photo-1629904888132-038af9df34ab?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
         }}
       />
 
@@ -34,8 +34,11 @@ export default function Login() {
         initial={{ x: '100%', opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
-        className="w-1/2 flex items-center justify-center bg-gray-100"
+        className="w-1/2 flex flex-col items-center justify-center bg-gray-100"
       >
+        <h1 className="text-4xl font-extrabold text-center text-oklch mb-16">
+  Welcome to <span className="text-gray-900">AI Recruiter!</span>
+</h1>
         <form
           onSubmit={handleLogin}
           className="bg-white p-12 rounded-2xl shadow-md w-full max-w-xl h-[500px]"
@@ -71,11 +74,12 @@ export default function Login() {
           </div>
 
           <button
-            type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-300"
-          >
-            Sign In
-          </button>
+  type="submit"
+  className="w-full bg-gray-200 hover:bg-gray-300 text-black font-semibold py-3 px-4  text-oklch rounded-lg transition duration-300"
+>
+  Sign In
+</button>
+
         </form>
       </motion.div>
     </div>
