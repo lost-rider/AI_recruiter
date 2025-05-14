@@ -21,7 +21,7 @@ export default function Dashboard() {
           className="rounded-xl shadow-md"
         />
         <div className="flex-1">
-          <h2 className="text-xl font-semibold mb-2">What's new in your career journey?</h2>
+          <h2 className="text-xl font-semibold mb-2">What is new in your career journey?</h2>
           <p className="text-gray-700">
             Keep track of your applications, interview updates, and progress. This dashboard helps
             you stay organized and motivated in your job search.
@@ -32,7 +32,7 @@ export default function Dashboard() {
       {/* Second Row: Text Left, Image Right (bottom aligned) */}
       <div className="flex items-end justify-between gap-4">
         <div className="flex-1 mb-16">
-          <h2 className="text-xl font-semibold ">How’s the job market?</h2>
+          <h2 className="text-xl font-semibold ">How is the job market?</h2>
           <p className="text-gray-700">
             The tech industry is evolving rapidly. Everyone should stay energetic, upskill regularly,
             and be kind to each other — success follows!
