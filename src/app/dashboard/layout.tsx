@@ -4,8 +4,8 @@ import { redirect } from "next/navigation";
 import React, { useState } from "react";
 import profileImage from '../../../public/profile-user.png';
 import Image from 'next/image';
-import Lottie from "lottie-react";
-import wavingRobot from "../assets/waving-robot.json"; // place your JSON in assets
+// import Lottie from "lottie-react";
+// import wavingRobot from "../assets/waving-robot.json"; // place your JSON in assets
 
 
 export default function DashboardLayout(
@@ -81,9 +81,9 @@ export default function DashboardLayout(
                 )}
                 {/* Page Content */}
                 <main className="p-6 bg-gray-100 flex-1 overflow-y-auto">{children}</main>
-                <div className="fixed bottom-2 right-4 w-40 h-40 z-50">
+                {/* <div className="fixed bottom-2 right-4 w-40 h-40 z-50">
                     <Lottie animationData={wavingRobot} loop={true} />
-                </div>
+                </div> */}
 
             </div>
         </div>
