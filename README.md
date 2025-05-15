@@ -45,11 +45,10 @@ npm run dev
 
 By default, the app will be available at: [http://localhost:3000](http://localhost:3000).
 Run the backend parallely at [http://localhost:8000](http://localhost:8000) to get the Text to speech response from chatbot.
-
 The backend repository is available at [https://github.com/As-redfly/assignment.git](https://github.com/As-redfly/assignment.git).
 ---
 
-## 🌐 Routes
+##  Routes
 
 | Route           | Description                           |
 |----------------|---------------------------------------|
@@ -64,7 +63,7 @@ The backend repository is available at [https://github.com/As-redfly/assignment.
 
 ---
 
-## ✨ Features
+##  Features
 
 
 ### 💬 Intelligent Chat Assistant
