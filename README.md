@@ -9,7 +9,16 @@ The website is live at [https://ai-recruiter-five.vercel.app/](https://ai-recrui
 ## 🛠️ Setup
 
 - Clone the `frontend` repository for the AI Recruiter website to your local machine.
+
+git clone https://github.com/lost-rider/AI_recruiter.git
+
+
 - Navigate into the cloned directory.
+
+```bash
+cd ai_recruiter
+```
+
 - Make sure the backend server is running locally and accessible.
 
 ---
@@ -25,11 +34,6 @@ npm install
 ---
 
 
-##  Navigate to project directory
-
-```bash
-cd ai_recruiter
-```
 
 ##  Run the Application
 
