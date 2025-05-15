@@ -1,40 +1,88 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Recruiter – Frontend
 
-## Getting Started
+The website is live at [https://ai-recruiter-five.vercel.app/](https://ai-recruiter-five.vercel.app/)
 
-First, run the development server:
+---
+
+---
+
+## 🛠️ Setup
+
+- Clone the `frontend` repository for the AI Recruiter website to your local machine.
+- Navigate into the cloned directory.
+- Make sure the backend server is running locally and accessible.
+
+---
+
+##  Install Dependencies
+
+Install the necessary dependencies using:
+
+```bash
+npm install
+```
+
+---
+
+
+##  Navigate to project directory
+
+```bash
+cd ai_recruiter
+```
+
+##  Run the Application
+
+To start the application locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+By default, the app will be available at: [http://localhost:3000](http://localhost:3000).
+Run the backend parallely at [http://localhost:8000](http://localhost:8000) to get the Text to speech response from chatbot.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The backend repository is available at [https://github.com/As-redfly/assignment.git](https://github.com/As-redfly/assignment.git).
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Routes
 
-## Learn More
+| Route           | Description                           |
+|----------------|---------------------------------------|
+| `/`            | Home Page                             |
+| `/recruiter`   | Recruiter Dashboard                   |
+| `/candidates`  | Candidate Profiles & Management       |
+| `/interviews`  | Schedule & View Interviews            |
+| `/chat`        | AI Chat Assistant for Recruiters      |
+| `/feedback`    | Interview Feedback Collection         |
+| `/analytics`   | Hiring Insights & Metrics             |
+| `/login`       | Landing/Login Page                    |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### 💬 Intelligent Chat Assistant
+- A chatbot for recruiters that answers queries about candidates and job roles.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 📝 Text to speech integration
+- Provides audio URL from the backend endpoint for the given text input
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# AI_recruiter
->>>>>>> 404e23a920e4bf1778d167cb7075a3c7ef0c8beb
+### 📊 Insights Dashboard
+- Visualizes hiring metrics: time-to-hire, funnel drop-off, engagement rate.
+- Helps identify problem areas in hiring processes.
+
+
+
+---
+
+## 🤝 Contribution
+
+Interested in contributing? Feel free to open an issue or a pull request. Your input is welcome!
+
+---
+
+##  Maintainers
+
+Built and maintained with  by the AI Recruiter Team.
