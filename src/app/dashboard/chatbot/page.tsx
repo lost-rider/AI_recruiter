@@ -49,7 +49,7 @@ export default function ChatPage() {
       .then((res) => res.json())
       .then((data) => {
         const audioUrl = data.audio_url || 'invalid-url'; // Default invalid URL
-
+        console.log(data);
         setMessages((prev) => {
           const updated = [...prev];
           updated[idx] = { ...updated[idx], audioUrl };
